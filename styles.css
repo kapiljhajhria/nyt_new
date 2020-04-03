@@ -1,0 +1,136 @@
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: Serif;*/
+/*font-family: 'Noto Serif', serif;*/
+
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    border: 2px solid;
+    height: auto;
+}
+.pageheading{
+    width: 100%;
+    text-align: center;
+}
+.navbar div {
+    flex: 1;
+    text-align: center;
+    border-left: 2px solid black;
+    transition: font-weight 1ms;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar div:first-child {
+    color: red;
+    border-left: 0;
+}
+.navbar div:hover{
+    background-color: #bbc1ba;
+    /*border-bottom:2px dashed red;*/
+    box-shadow: 0px 5px 5px red;
+    /*transform: rotate(02deg);*/
+    border: 0;
+    /*font-size: 20px;*/
+    font-weight: bold;
+}
+
+
+.sub-body{
+    display: flex;
+    flex-direction: column;
+}
+.topsection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.topleft{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+
+}
+.popimage{
+    flex: 3;
+    align-self: center;
+    justify-content: center;
+    height: 100%;
+    max-width:100%
+}
+
+.pop-content{
+    flex: 2;
+}
+.topright{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.unpop-news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    border: 2px solid blanchedalmond;
+    /*padding: 5px;*/
+}
+/*.unpop-news+div{*/
+/*    border-bottom: 10px solid blue;*/
+/*}*/
+.unpop-news-body{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+.unpop-news-sub{
+    flex: 2;
+}
+.unpop-news-img{
+    flex: 1;
+}
+.news-stats-footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.news-stats-footer div:first-child{
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+
+
+
+.mid-section{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+
+    /*height: 500px;*/
+    /*max-height: 100%;*/
+    }
+
+/*.mid-section>div:first-child{*/
+/*    margin-left: 0;*/
+/*}*/
+/*.mid-section>div{*/
+/*    margin-left: 10px;*/
+/*}*/
