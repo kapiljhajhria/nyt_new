@@ -12,7 +12,20 @@ img{
 
 }
 
+body{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
 
+}
+body>div{
+    width: 80%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    alignment: center;
+}
 
 .navbar {
     width: 100%;
