@@ -39,18 +39,21 @@ body>div{
 .navbar {
     width: 100%;
     display: flex;
-    border: 1px solid;
+    /*border: 1px solid;*/
     height: auto;
+    border-bottom: 2px solid rgba(0,0,0, 0.1);
+
 }
 .navbar div {
     flex: 1;
     text-align: center;
-    border-left: 1px solid black;
+    /*border-left: 1px solid black;*/
     transition: font-weight 1ms;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #283C4A;
+    padding-bottom: 15px;
 }
 
 .navbar div:first-child {
