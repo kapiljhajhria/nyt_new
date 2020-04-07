@@ -19,7 +19,7 @@ body{
 
 }
 body>div{
-    width: 80%;
+    width: 90%;
     align-self: center;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@ body>div{
     flex-direction: column;
     margin-right: 25px;
     padding-right: 25px;
-    border-right: 2px dotted black;
+    border-right: 2px solid #f0f0f0;
 }
 .popimage{
     flex: 6;
@@ -178,7 +178,7 @@ body>div{
 }
 .topright>div{
     padding-top: 0;
-    border-bottom: 2px dotted black;
+    border-bottom: 2px solid #f0f0f0;
 }
 .topright>div:last-child{
     padding-top: 0;
@@ -196,7 +196,7 @@ body>div{
 /*}*/
 
 .sub-body>.mid-section{
-    border-bottom: 2px dotted black;
+    border-bottom: 2px solid #f0f0f0;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
@@ -231,7 +231,7 @@ body>div{
 }
 .mid-section>div{
     padding-left: 10px;
-    border-right: 2px dotted black;
+    border-right: 2px solid #f0f0f0;
 }
 .mid-section>div:last-child{
     /*padding-left: 25px;*/
