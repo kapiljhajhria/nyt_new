@@ -1,5 +1,6 @@
 /*font-family: 'Noto Serif', serif;*/
 /*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Roboto', sans-serif;*/
 
 *{
     box-sizing: border-box;
@@ -33,7 +34,7 @@ body>div{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 28px;
-
+    color: #283C4A;
 }
 .navbar {
     width: 100%;
@@ -49,6 +50,7 @@ body>div{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    color: #283C4A;
 }
 
 .navbar div:first-child {
@@ -57,11 +59,6 @@ body>div{
 }
 .navbar div:hover{
     background-color: #bbc1ba;
-    /*border-bottom:2px dashed red;*/
-    /*box-shadow: 0px 5px 5px red;*/
-    /*transform: rotate(02deg);*/
-    /*border: 0;*/
-    /*font-size: 20px;*/
     font-weight: bold;
 }
 
@@ -103,16 +100,18 @@ body>div{
 .popular-hl{
     font-size: 33px;
     font-family: 'Noto Serif', serif;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
     margin-top: 10px;
+    color: #283C4A;
 
 }
 .other-hl{
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Noto Serif', serif;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
+    color: #283C4A;
 }
 .topright{
     flex: 2;
@@ -120,7 +119,7 @@ body>div{
     flex-direction: column;
 }
 
-.unpop-news{
+.other-news{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -129,10 +128,12 @@ body>div{
     padding-right: 15px;
     padding-bottom: 15px;
     margin-bottom: 15px;
+    color: #283C4A;
+    font-family: 'Noto Serif', serif;
     /*border: 2px solid blanchedalmond;*/
     /*padding: 5px;*/
 }
-/*.unpop-news+div{*/
+/*.other-news+div{*/
 /*    border-bottom: 10px solid blue;*/
 /*}*/
 .other-news-body{
@@ -151,7 +152,9 @@ body>div{
 .news-stats-footer{
     display: flex;
     flex-direction: row;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
+    font-size: 14px;
 
 }
 .news-stats-footer div:first-child{
@@ -164,7 +167,7 @@ body>div{
     color: #acb0b4;
     margin-top: 10px;
 }
-.unpop-news img{
+.other-news img{
     padding-left: 5px;
 
 }
