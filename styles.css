@@ -29,7 +29,7 @@ body>div{
 .navbar {
     width: 100%;
     display: flex;
-    border: 2px solid;
+    border: 1px solid;
     height: auto;
 }
 .pageheading{
@@ -43,23 +43,23 @@ body>div{
 .navbar div {
     flex: 1;
     text-align: center;
-    border-left: 2px solid black;
+    border-left: 1px solid black;
     transition: font-weight 1ms;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .navbar div:first-child {
     color: red;
-    border-left: 0;
+    border-bottom: 2px solid #6a82ff;
 }
 .navbar div:hover{
     background-color: #bbc1ba;
     /*border-bottom:2px dashed red;*/
-    box-shadow: 0px 5px 5px red;
+    /*box-shadow: 0px 5px 5px red;*/
     /*transform: rotate(02deg);*/
-    border: 0;
+    /*border: 0;*/
     /*font-size: 20px;*/
     font-weight: bold;
 }
