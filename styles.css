@@ -52,16 +52,18 @@ body>div{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color: #283C4A;
+    color: rgba(40,60,74, 0.5);
     padding-bottom: 15px;
+
 }
 
 .navbar div:first-child {
     /*color: red;*/
-    border-bottom: 2px solid #283C4A;
+    border-bottom: 2px solid deepskyblue;
+    color: rgba(40,60,74, 1.0);
 }
 .navbar div:hover{
-    /*background-color: #bbc1ba;*/
+    color: rgba(40,60,74, 1.0);
     font-weight: bold;
     cursor: pointer;
 }
