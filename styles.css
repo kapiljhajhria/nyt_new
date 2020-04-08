@@ -41,6 +41,7 @@ body>div{
     display: flex;
     /*border: 1px solid;*/
     height: auto;
+    margin-bottom: 15px;
     border-bottom: 2px solid rgba(0,0,0, 0.1);
 
 }
@@ -50,22 +51,24 @@ body>div{
     /*border-left: 1px solid black;*/
     transition: font-weight 1ms;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: rgba(40,60,74, 0.5);
     padding-bottom: 15px;
+    padding-top: 15px;
 
 }
 
 .navbar div:first-child {
     /*color: red;*/
+    font-weight: bold;
     border-bottom: 2px solid deepskyblue;
     color: rgba(40,60,74, 1.0);
 }
 .navbar div:hover{
     color: rgba(40,60,74, 1.0);
-    font-weight: bold;
     cursor: pointer;
+    background-color: #dfe3e7;
 }
 
 
@@ -154,6 +157,8 @@ body>div{
 }
 .other-sub{
     flex: 2;
+    font-size: 16px;
+
 }
 .other-imgdiv{
     flex: 1;
@@ -188,7 +193,9 @@ body>div{
 
 
 
-
+.other-sub{
+    padding-right: 8px;
+}
 
 .other-news img{
     padding-left: 5px;
@@ -226,7 +233,7 @@ body>div{
 
 }
 .sub-body>.mid-section:last-child .other-news-body{
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 
@@ -238,11 +245,11 @@ body>div{
 
 
 .mid-section>div{
-    padding-left: 10px;
+    padding-left: 25px;
     padding-right: 15px;
     border-right: 2px solid #f0f0f0;
 }
 .mid-section>div:last-child{
-    /*padding-left: 25px;*/
+    padding-right: 0;
     border-right: 0 dotted black;
 }
