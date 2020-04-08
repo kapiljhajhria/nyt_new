@@ -242,7 +242,9 @@ body>div{
     padding-left: 0;
     margin-right: 10px;
 }
-
+.fa-comments-o{
+    font-size: 20px;
+}
 
 .mid-section>div{
     padding-left: 25px;
