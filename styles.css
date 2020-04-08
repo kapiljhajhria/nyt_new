@@ -156,8 +156,12 @@ body>div{
     font-weight: 400;
 }
 .other-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 2;
     font-size: 16px;
+    padding-right: 8px;
 
 }
 .other-imgdiv{
@@ -183,6 +187,9 @@ body>div{
     font-size: 14px;
     color: #acb0b4;
 }
+.other-src{
+    margin-top: 10px;
+}
 .footer-left{
     font-weight: bold;
     color: #acb0b4;
@@ -193,9 +200,7 @@ body>div{
 
 
 
-.other-sub{
-    padding-right: 8px;
-}
+
 
 .other-news img{
     padding-left: 5px;
