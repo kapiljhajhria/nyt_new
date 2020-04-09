@@ -275,9 +275,10 @@ body>div{
 }
 .btm-section .btm-news:first-child{
     border-right: 2px solid #f0f0f0;
-    margin-right: 15px;
+    margin-right: 10px;
+    padding-right: 5px;
     padding-left: 0;
-    padding-right: 15px;
+    /*padding-right: 15px;*/
 }
 .btm-news{
     display: flex;
