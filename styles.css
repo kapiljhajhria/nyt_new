@@ -92,7 +92,7 @@ body > div {
     display: flex;
     flex-direction: column;
     /*margin-right: 25px;*/
-    padding-right: 25px;
+    /*padding-right: 25px;*/
     border-right: 2px solid #f0f0f0;
 }
 
@@ -152,6 +152,7 @@ body > div {
 
 .topleft > div {
     margin-bottom: 15px;
+    margin-right: 20px;
 }
 
 .pop-content > div {
