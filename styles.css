@@ -128,9 +128,13 @@ body > div {
 }
 
 .topright {
+    border-right: 2px solid #f0f0f0;
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+.topsection .topright:last-child{
+    border-right: 0;
 }
 
 
