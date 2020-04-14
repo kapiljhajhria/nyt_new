@@ -282,7 +282,15 @@ body > div {
 .fa-comments-o {
     font-size: 20px;
 }
+.imgicon{
+    height: 18px;
+    width: 18px;
+    color: #dfe3e7;
+    filter: invert(84%) sepia(10%) saturate(158%) hue-rotate(4deg) brightness(85%) contrast(89%);
+}
+.imgcomments{
 
+}
 .mid-section > div {
     padding-left: 25px;
     padding-right: 15px;
