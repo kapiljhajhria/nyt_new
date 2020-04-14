@@ -97,7 +97,7 @@ body > div {
 }
 
 .popular-imgdiv {
-     flex: 1;
+     /*flex: 1;*/
     max-height: 100%;
     max-width: 100%
 }
