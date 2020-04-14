@@ -101,9 +101,7 @@ body > div {
     max-height: 100%;
     max-width: 100%
 }
-.popular-imgdiv img{
-    object-fit: cover;
-}
+
 .pop-content {
     flex: 1;
     font-family: 'Noto Serif', serif;
